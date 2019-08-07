@@ -46,7 +46,7 @@ public class PostRequest {
 		System.out.println("statusCode is " +statusCode);
 		
 		Assert.assertEquals(statusCode, 201);
-		
+		Assert.assertEquals(statusCode, 201);
 		
 		
 	}
