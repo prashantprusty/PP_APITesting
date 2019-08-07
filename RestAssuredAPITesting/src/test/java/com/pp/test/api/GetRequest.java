@@ -33,6 +33,7 @@ void getRequest(){
 	int statusCode = respns.getStatusCode();
 	System.out.println("Statsu Code is : "+ statusCode);
 	System.out.println("Statsu Code is : "+ statusCode);
+	System.out.println("Statsu Code is : "+ statusCode);
 	Assert.assertEquals(statusCode, 201);
 	
 	// Status line validation
