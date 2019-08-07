@@ -27,9 +27,11 @@ void getRequest(){
 	
 	String strRsponseBody =respns.getBody().asString();
 	System.out.println("ResponseBody Is" +strRsponseBody);
+	System.out.println("ResponseBody Is" +strRsponseBody);
 	
 	//Satus code validation
 	int statusCode = respns.getStatusCode();
+	System.out.println("Statsu Code is : "+ statusCode);
 	System.out.println("Statsu Code is : "+ statusCode);
 	Assert.assertEquals(statusCode, 201);
 	
